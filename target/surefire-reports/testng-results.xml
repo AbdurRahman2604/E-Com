@@ -1,21 +1,115 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
+    <line>
+      <![CDATA[Test case is passed]]>
+    </line>
+    <line>
+      <![CDATA[Test case is passed]]>
+    </line>
+    <line>
+      <![CDATA[Test case is passed]]>
+    </line>
+    <line>
+      <![CDATA[Test case is passed]]>
+    </line>
   </reporter-output>
-  <suite started-at="2024-12-18T17:53:09 IST" name="Suite" finished-at="2024-12-18T17:53:15 IST" duration-ms="6163">
+  <suite started-at="2024-12-20T22:28:18 IST" name="Suite" finished-at="2024-12-20T22:30:18 IST" duration-ms="119972">
     <groups>
     </groups>
-    <test started-at="2024-12-18T17:53:09 IST" name="Test" finished-at="2024-12-18T17:53:15 IST" duration-ms="6163">
-      <class name="com.testcases.amazon.TC002_Signin">
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.testcases.amazon.TC002_Signin@3d2ee678]" started-at="2024-12-18T17:53:09 IST" name="launchBrowser" finished-at="2024-12-18T17:53:12 IST" duration-ms="3677" status="PASS">
+    <test started-at="2024-12-20T22:28:18 IST" name="Test" finished-at="2024-12-20T22:30:18 IST" duration-ms="119972">
+      <class name="com.testcases.amazon.TC004_EditName">
+        <test-method is-config="true" signature="launchBrowser(org.testng.ITestContext)[pri:0, instance:com.testcases.amazon.TC004_EditName@53bd8fca]" started-at="2024-12-20T22:28:57 IST" name="launchBrowser" finished-at="2024-12-20T22:29:05 IST" duration-ms="7739" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4eb45fec]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method signature="signinWithPropertyFile()[pri:0, instance:com.testcases.amazon.TC002_Signin@3d2ee678]" started-at="2024-12-18T17:53:12 IST" name="signinWithPropertyFile" finished-at="2024-12-18T17:53:15 IST" duration-ms="2297" status="PASS">
+        <test-method signature="editName()[pri:0, instance:com.testcases.amazon.TC004_EditName@53bd8fca]" started-at="2024-12-20T22:29:05 IST" name="editName" finished-at="2024-12-20T22:29:51 IST" duration-ms="46555" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test case is passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- editName -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testcases.amazon.TC004_EditName@53bd8fca]" started-at="2024-12-20T22:29:51 IST" name="tearDown" finished-at="2024-12-20T22:29:52 IST" duration-ms="335" status="PASS">
           <reporter-output>
           </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.testcases.amazon.TC004_EditName -->
+      <class name="com.testcases.amazon.TC005_SearchProduct">
+        <test-method is-config="true" signature="launchBrowser(org.testng.ITestContext)[pri:0, instance:com.testcases.amazon.TC005_SearchProduct@7642df8f]" started-at="2024-12-20T22:29:52 IST" name="launchBrowser" finished-at="2024-12-20T22:29:56 IST" duration-ms="4237" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4eb45fec]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="searchProduct()[pri:0, instance:com.testcases.amazon.TC005_SearchProduct@7642df8f]" started-at="2024-12-20T22:29:56 IST" name="searchProduct" finished-at="2024-12-20T22:29:57 IST" duration-ms="609" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test case is passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- searchProduct -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testcases.amazon.TC005_SearchProduct@7642df8f]" started-at="2024-12-20T22:30:01 IST" name="tearDown" finished-at="2024-12-20T22:30:01 IST" duration-ms="535" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.testcases.amazon.TC005_SearchProduct -->
+      <class name="com.testcases.amazon.TC006_Filter">
+        <test-method is-config="true" signature="launchBrowser(org.testng.ITestContext)[pri:0, instance:com.testcases.amazon.TC006_Filter@3e30646a]" started-at="2024-12-20T22:30:01 IST" name="launchBrowser" finished-at="2024-12-20T22:30:08 IST" duration-ms="6670" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4eb45fec]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="filter()[pri:0, instance:com.testcases.amazon.TC006_Filter@3e30646a]" started-at="2024-12-20T22:30:08 IST" name="filter" finished-at="2024-12-20T22:30:17 IST" duration-ms="9540" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test case is passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- filter -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testcases.amazon.TC006_Filter@3e30646a]" started-at="2024-12-20T22:30:18 IST" name="tearDown" finished-at="2024-12-20T22:30:18 IST" duration-ms="472" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.testcases.amazon.TC006_Filter -->
+      <class name="com.testcases.amazon.TC002_Signin">
+        <test-method is-config="true" signature="launchBrowser(org.testng.ITestContext)[pri:0, instance:com.testcases.amazon.TC002_Signin@6399551e]" started-at="2024-12-20T22:28:18 IST" name="launchBrowser" finished-at="2024-12-20T22:28:24 IST" duration-ms="5772" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4eb45fec]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="signinWithPropertyFile()[pri:0, instance:com.testcases.amazon.TC002_Signin@6399551e]" started-at="2024-12-20T22:28:24 IST" name="signinWithPropertyFile" finished-at="2024-12-20T22:28:47 IST" duration-ms="23129" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test case is passed]]>
+            </line>
+          </reporter-output>
         </test-method> <!-- signinWithPropertyFile -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testcases.amazon.TC002_Signin@3d2ee678]" started-at="2024-12-18T17:53:15 IST" name="tearDown" finished-at="2024-12-18T17:53:15 IST" duration-ms="138" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testcases.amazon.TC002_Signin@6399551e]" started-at="2024-12-20T22:28:55 IST" name="tearDown" finished-at="2024-12-20T22:28:57 IST" duration-ms="1471" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

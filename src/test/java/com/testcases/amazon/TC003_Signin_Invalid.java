@@ -2,13 +2,14 @@ package com.testcases.amazon;
 
 import org.testng.annotations.Test;
 
+
 import com.pageobjects.amazon.PO_002_Signin;
-import com.utility.amazon.ExcelDP;
+//import com.utility.amazon.ExcelDP;
 
 public class TC003_Signin_Invalid extends A_Browser_LQ {
 
 
-@Test(dataProvider="ExcelData",dataProviderClass =ExcelDP.class)
+ @Test//(dataProvider="ExcelData",dataProviderClass =ExcelDP.class)
 public void login(String uName,String pwd){
 	
 	
@@ -18,24 +19,7 @@ public void login(String uName,String pwd){
 	si.password(pwd);
 	si.verify();
 	
-	
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+ }
 
 
 }

@@ -7,7 +7,10 @@
   <test thread-count="5" name="Test">
  
     <classes>
-      <class name="com.testcases.amazon.TC002_Signin"/>
+     <!-- <class name="com.testcases.amazon.TC002_Signin"/>
+      <class name="com.testcases.amazon.TC004_EditName"/>
+      <class name="com.testcases.amazon.TC005_SearchProduct"/>-->
+      <class name="com.testcases.amazon.TC006_Filter"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

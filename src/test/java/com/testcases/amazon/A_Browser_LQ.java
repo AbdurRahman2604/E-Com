@@ -45,7 +45,7 @@ public class A_Browser_LQ {
 		String timeStamp = LocalDateTime.now().format(DateTimeFormatter.ofPattern("dd_mm_yy_HH_mm_ss"));
 		TakesScreenshot t1 = (TakesScreenshot) driver;
 		File source = t1.getScreenshotAs(OutputType.FILE);
-		File destination = new File("D:\\Eclipse_GroTechMInd\\E-Com\\screenshots\\Pass\\TC002" + timeStamp + ".png");
+		File destination = new File("D:\\Eclipse_GroTechMInd\\E-Com\\screenshots\\Pass\\TC002_" + timeStamp + ".png");
 		source.renameTo(destination);
 		return destination;
 		

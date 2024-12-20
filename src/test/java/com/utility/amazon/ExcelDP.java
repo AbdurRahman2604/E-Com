@@ -13,13 +13,8 @@ import org.apache.poi.ss.usermodel.Workbook;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import org.testng.annotations.DataProvider;
 
-public class ExcelDP {
-	
-	
-	static List<String>userName=new ArrayList<String>();
-	static List<String>password=new ArrayList<String>();
-	
-	
+/*public class ExcelDP {
+		
 @DataProvider(name="ExcelData")	
 public Object[][] readExcel() throws IOException {
 	FileInputStream excel=new FileInputStream("D:\\Eclipse_GroTechMInd\\E-Com\\src\\test\\resources\\E-Com.xlsx");
@@ -33,27 +28,9 @@ public Object[][] readExcel() throws IOException {
 		Iterator<Cell> columnIterator = row.iterator();
 		int i=2;
 		while(columnIterator.hasNext()) {
-			if(i%2==0) {
-				userName.add(columnIterator.next().getStringCellValue());
-			}
-			else {
-				password.add(columnIterator.next().getStringCellValue());
-			}
-			i++;
-		}
-	}
-
-
-
+		
 }
-
-
-	
-//	public static void main(String[] args) throws IOException {
-//		ExcelDP e=new ExcelDP();
-//		e.readExcel();
-//	}
-	
-	
-
 }
+	return null;
+}
+}*/
