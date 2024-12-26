@@ -1,7 +1,6 @@
-com\pageobjects\amazon\PO_002_Signin.class
-com\pageobjects\amazon\B_HomePage.class
 com\testcases\amazon\A_Browser_LQ.class
-com\testcases\amazon\TC002_Signin.class
 com\pageobjects\amazon\PO_001_CreateAccountPage.class
-com\testcases\amazon\TC001_CreateAccount.class
 com\pageobjects\amazon\A_Basepage.class
+com\pageobjects\amazon\B_HomePage.class
+com\testcases\amazon\TC002_Signin.class
+com\testcases\amazon\TC001_CreateAccount.class

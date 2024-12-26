@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.testcases.amazon.TC003_Signin_Invalid">
+      <class name="com.testcases.amazon.TC013_ApplyCouponCode">
         <methods>
-          <include name="login"/>
           <include name="launchBrowser"/>
+          <include name="couponCode"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- com.testcases.amazon.TC003_Signin_Invalid -->
+      </class> <!-- com.testcases.amazon.TC013_ApplyCouponCode -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

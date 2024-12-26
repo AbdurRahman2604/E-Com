@@ -2,31 +2,31 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-12-20T22:13:04 IST" name="Default suite" finished-at="2024-12-20T22:13:14 IST" duration-ms="9655">
+  <suite started-at="2024-12-25T17:50:33 IST" name="Default suite" finished-at="2024-12-25T17:51:15 IST" duration-ms="41945">
     <groups>
     </groups>
-    <test started-at="2024-12-20T22:13:04 IST" name="Default test" finished-at="2024-12-20T22:13:14 IST" duration-ms="9655">
-      <class name="com.testcases.amazon.TC006_Filter">
-        <test-method is-config="true" signature="launchBrowser(org.testng.ITestContext)[pri:0, instance:com.testcases.amazon.TC006_Filter@19648c40]" started-at="2024-12-20T22:13:04 IST" name="launchBrowser" finished-at="2024-12-20T22:13:08 IST" duration-ms="3659" status="PASS">
+    <test started-at="2024-12-25T17:50:33 IST" name="Default test" finished-at="2024-12-25T17:51:15 IST" duration-ms="41945">
+      <class name="com.testcases.amazon.TC013_ApplyCouponCode">
+        <test-method is-config="true" signature="launchBrowser(org.testng.ITestContext)[pri:0, instance:com.testcases.amazon.TC013_ApplyCouponCode@42463763]" started-at="2024-12-25T17:50:33 IST" name="launchBrowser" finished-at="2024-12-25T17:50:38 IST" duration-ms="4515" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@3e7dfd44]]>
+                <![CDATA[org.testng.TestRunner@3b05a99b]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method signature="filter()[pri:0, instance:com.testcases.amazon.TC006_Filter@19648c40]" started-at="2024-12-20T22:13:08 IST" name="filter" finished-at="2024-12-20T22:13:13 IST" duration-ms="5687" status="PASS">
+        <test-method signature="couponCode()[pri:0, instance:com.testcases.amazon.TC013_ApplyCouponCode@42463763]" started-at="2024-12-25T17:50:38 IST" name="couponCode" finished-at="2024-12-25T17:51:15 IST" duration-ms="37356" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- filter -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testcases.amazon.TC006_Filter@19648c40]" started-at="2024-12-20T22:13:13 IST" name="tearDown" finished-at="2024-12-20T22:13:14 IST" duration-ms="258" status="PASS">
+        </test-method> <!-- couponCode -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testcases.amazon.TC013_ApplyCouponCode@42463763]" started-at="2024-12-25T17:51:15 IST" name="tearDown" finished-at="2024-12-25T17:51:15 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.testcases.amazon.TC006_Filter -->
+      </class> <!-- com.testcases.amazon.TC013_ApplyCouponCode -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

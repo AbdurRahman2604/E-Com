@@ -8,9 +8,10 @@
  
     <classes>
      <!-- <class name="com.testcases.amazon.TC002_Signin"/>
-      <class name="com.testcases.amazon.TC004_EditName"/>
-      <class name="com.testcases.amazon.TC005_SearchProduct"/>-->
-      <class name="com.testcases.amazon.TC006_Filter"/>
+      <class name="com.testcases.amazon.TC004_EditProfile"/>
+      <class name="com.testcases.amazon.TC005_Search"/>
+      <class name="com.testcases.amazon.TC006_Filter"/>-->
+      <class name="com.testcases.amazon.TC003_Signin_Invalid"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

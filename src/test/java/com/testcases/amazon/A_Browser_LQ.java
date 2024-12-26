@@ -1,6 +1,7 @@
 package com.testcases.amazon;
 
 import java.io.File;
+
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.time.Duration;
@@ -12,15 +13,21 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.testng.ITestContext;
-import org.testng.annotations.AfterClass;
-import org.testng.annotations.BeforeClass;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeMethod;
 
 public class A_Browser_LQ {
 	
 	public static WebDriver driver;
-	@BeforeClass
+	
+	
+	
+	@BeforeMethod
 	public void launchBrowser(ITestContext context) throws IOException {
+//		ChromeOptions options = new ChromeOptions();
+//		options.addArguments("--headless=new");
 		driver=new ChromeDriver();
 		driver.manage().deleteAllCookies();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
@@ -58,9 +65,9 @@ public class A_Browser_LQ {
 	
 	
 	
-	@AfterClass
+	@AfterMethod
 	public void tearDown() {
-		driver.close();
+		//driver.close();
 	}
 
 }

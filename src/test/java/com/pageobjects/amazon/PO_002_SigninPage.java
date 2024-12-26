@@ -4,9 +4,9 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
-public class PO_002_Signin extends A_Basepage{
+public class PO_002_SigninPage extends A_Basepage{
 
-	public PO_002_Signin(WebDriver driver) {
+	public PO_002_SigninPage(WebDriver driver) {
 		super(driver);
 		
 	}

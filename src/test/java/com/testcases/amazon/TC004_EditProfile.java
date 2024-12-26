@@ -5,7 +5,7 @@ import org.testng.annotations.Test;
 import com.pageobjects.amazon.B_HomePage;
 import com.pageobjects.amazon.PO_004_EditProfilePage;
 
-public class TC004_EditName extends A_Browser_LQ{
+public class TC004_EditProfile extends A_Browser_LQ{
 
 @Test
 public void	editName() {

@@ -4,7 +4,7 @@ import org.testng.annotations.Test;
 
 import com.pageobjects.amazon.PO_005_SearchPage;
 
-public class TC005_SearchProduct extends A_Browser_LQ {
+public class TC005_Search extends A_Browser_LQ {
 
 @Test	
 public void searchProduct() {
