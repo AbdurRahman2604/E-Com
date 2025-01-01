@@ -11,7 +11,7 @@ import com.utility.amazon.ExcelDP;
 
 public class TC003_Signin_Invalid extends BaseClass {
 
-	@Test(dataProvider = "ExcelData", dataProviderClass = ExcelDP.class)
+	@Test(dataProvider = "ExcelData", dataProviderClass = ExcelDP.class,retryAnalyzer =com.testbase.amazon.RetryAnalyzer.class)
 	public void login(String uName, String pwd) {
 
 		B_HomePage hp = new B_HomePage(driver);

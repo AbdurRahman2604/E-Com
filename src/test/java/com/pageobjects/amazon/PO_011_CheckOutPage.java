@@ -25,7 +25,7 @@ WebElement confirmPayment;
 @FindBy(id="spc-gcpromoinput")
 WebElement coupon;
 
-@FindBy(xpath="//input[@aria-labelledby='gcApplyButtonId-announce']")
+@FindBy(xpath="//span[contains(text(),'Apply')]")
 WebElement apply;
 
 	

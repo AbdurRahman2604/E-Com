@@ -15,14 +15,15 @@ import org.testng.annotations.DataProvider;
 
 public class ExcelDP {
 		
-@DataProvider(name="ExcelData")	
+@DataProvider(name="ExcelData")//indices =1 to run specific pair of data	
 public Object[][] readExcel() throws  IOException  {
 	FileInputStream excel=new FileInputStream(".\\testData\\E-Com.xlsx");
 	
 	Workbook w1 = WorkbookFactory.create(excel);
 //	// Get the sheet by name
     Sheet sheet = w1.getSheet("amazon");
-    Row row = sheet.getRow(0);
+    Row row = sheet.getRow(0);//header row
+  
    // Determine the number of rows (including the header)
     int rowCount = sheet.getPhysicalNumberOfRows(); // 0-based indexing
     System.out.println("Number of rows (including header): " + rowCount);

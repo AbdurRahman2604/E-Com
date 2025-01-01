@@ -1,4 +1,4 @@
-package com.listner.amazon;
+package com.testbase.amazon;
 
 import java.io.File;
 import java.time.LocalDateTime;
@@ -10,8 +10,6 @@ import org.openqa.selenium.WebDriver;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
 import org.testng.Reporter;
-
-import com.testbase.amazon.BaseClass;
 
 public class Listener implements ITestListener {
 	

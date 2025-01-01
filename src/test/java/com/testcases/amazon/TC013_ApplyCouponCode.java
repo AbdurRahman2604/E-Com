@@ -6,12 +6,13 @@ import com.pageobjects.amazon.PO_002_SigninPage;
 import com.pageobjects.amazon.PO_005_SearchPage;
 import com.pageobjects.amazon.PO_007_ProductDetailsVerifyPage;
 import com.pageobjects.amazon.PO_011_CheckOutPage;
+import com.testbase.amazon.RetryAnalyzer;
 import com.testbase.amazon.BaseClass;
 
 public class TC013_ApplyCouponCode extends BaseClass{
 	
 	
-	@Test(retryAnalyzer = B_RetryAnalyzer.class)
+	@Test(retryAnalyzer =com.testbase.amazon.RetryAnalyzer.class)
 	public void couponCode()  {
 		PO_005_SearchPage search = new PO_005_SearchPage(driver);
 

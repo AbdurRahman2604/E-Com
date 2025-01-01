@@ -1,9 +1,9 @@
-package com.testcases.amazon;
+package com.testbase.amazon;
 
 import org.testng.IRetryAnalyzer;
 import org.testng.ITestResult;
 
-public class B_RetryAnalyzer implements IRetryAnalyzer {
+public class RetryAnalyzer implements IRetryAnalyzer {
 
 	int count=0;
 	int retryCount=2;
