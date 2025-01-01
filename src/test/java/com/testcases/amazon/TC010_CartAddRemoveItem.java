@@ -4,8 +4,9 @@ import org.testng.annotations.Test;
 
 import com.pageobjects.amazon.PO_005_SearchPage;
 import com.pageobjects.amazon.PO_007_ProductDetailsVerifyPage;
+import com.testbase.amazon.BaseClass;
 
-public class TC010_CartAddRemoveItem extends A_Browser_LQ{
+public class TC010_CartAddRemoveItem extends BaseClass{
 	
 	@Test
 	public void addRemoveItem() {

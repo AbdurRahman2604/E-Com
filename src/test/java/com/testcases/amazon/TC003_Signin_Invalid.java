@@ -2,12 +2,14 @@ package com.testcases.amazon;
 
 import org.testng.annotations.Test;
 
+
+
 import com.pageobjects.amazon.B_HomePage;
 import com.pageobjects.amazon.PO_002_SigninPage;
-//import com.utility.amazon.ExcelDP;
+import com.testbase.amazon.BaseClass;
 import com.utility.amazon.ExcelDP;
 
-public class TC003_Signin_Invalid extends A_Browser_LQ {
+public class TC003_Signin_Invalid extends BaseClass {
 
 	@Test(dataProvider = "ExcelData", dataProviderClass = ExcelDP.class)
 	public void login(String uName, String pwd) {

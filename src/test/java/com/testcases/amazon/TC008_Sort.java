@@ -4,8 +4,9 @@ import org.testng.annotations.Test;
 
 import com.pageobjects.amazon.PO_005_SearchPage;
 import com.pageobjects.amazon.PO_008_SortByPricePage;
+import com.testbase.amazon.BaseClass;
 
-public class TC008_Sort extends A_Browser_LQ{
+public class TC008_Sort extends BaseClass{
 
 	
 	@Test

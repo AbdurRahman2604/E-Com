@@ -6,8 +6,9 @@ import org.testng.annotations.Test;
 
 import com.pageobjects.amazon.PO_002_SigninPage;
 import com.pageobjects.amazon.PO_014_ReviewOrderPage;
+import com.testbase.amazon.BaseClass;
 
-public class TC014_ReviewOrder extends A_Browser_LQ {
+public class TC014_ReviewOrder extends BaseClass {
 	
 	
 	@Test

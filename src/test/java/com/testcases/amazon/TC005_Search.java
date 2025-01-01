@@ -3,8 +3,9 @@ package com.testcases.amazon;
 import org.testng.annotations.Test;
 
 import com.pageobjects.amazon.PO_005_SearchPage;
+import com.testbase.amazon.BaseClass;
 
-public class TC005_Search extends A_Browser_LQ {
+public class TC005_Search extends BaseClass {
 
 @Test	
 public void searchProduct() {

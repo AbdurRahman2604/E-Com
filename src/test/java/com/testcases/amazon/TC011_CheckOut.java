@@ -6,8 +6,9 @@ import com.pageobjects.amazon.PO_002_SigninPage;
 import com.pageobjects.amazon.PO_005_SearchPage;
 import com.pageobjects.amazon.PO_007_ProductDetailsVerifyPage;
 import com.pageobjects.amazon.PO_011_CheckOutPage;
+import com.testbase.amazon.BaseClass;
 
-public class TC011_CheckOut extends A_Browser_LQ{
+public class TC011_CheckOut extends BaseClass{
 	
 	@Test
 	public void checkOut() throws InterruptedException {

@@ -15,8 +15,9 @@ import com.pageobjects.amazon.PO_005_SearchPage;
 import com.pageobjects.amazon.PO_007_ProductDetailsVerifyPage;
 import com.pageobjects.amazon.PO_011_CheckOutPage;
 import com.pageobjects.amazon.PO_012_SelectPMPage;
+import com.testbase.amazon.BaseClass;
 
-public class TC012_SelectAllPaymentMethod extends A_Browser_LQ {
+public class TC012_SelectAllPaymentMethod extends BaseClass {
 
 	
 @Test	

@@ -11,18 +11,20 @@ import org.testng.ITestListener;
 import org.testng.ITestResult;
 import org.testng.Reporter;
 
-import com.testcases.amazon.A_Browser_LQ;
+import com.testbase.amazon.BaseClass;
 
 public class Listener implements ITestListener {
 	
 
 	@Override
 	public void onTestSuccess(ITestResult result) {
-		   WebDriver driver = (WebDriver) result.getTestContext().getAttribute("WebDriver");
-
-		ITestListener.super.onTestSuccess(result);
-		Reporter.log("Test case is passed");
-		 A_Browser_LQ.screenShots(driver);
+		 
+		
+		
+		String screenShot = new BaseClass().screenShots(result.getName());
+		
+	
+	
 	}
 
 	

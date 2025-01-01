@@ -10,8 +10,9 @@ import org.testng.annotations.Test;
 
 import com.pageobjects.amazon.B_HomePage;
 import com.pageobjects.amazon.PO_001_CreateAccountPage;
+import com.testbase.amazon.BaseClass;
 
-public class TC001_CreateAccount extends A_Browser_LQ {
+public class TC001_CreateAccount extends BaseClass {
 	
 	
 	

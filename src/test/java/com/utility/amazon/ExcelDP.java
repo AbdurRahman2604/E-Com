@@ -17,7 +17,7 @@ public class ExcelDP {
 		
 @DataProvider(name="ExcelData")	
 public Object[][] readExcel() throws  IOException  {
-	FileInputStream excel=new FileInputStream("D:\\Eclipse_GroTechMInd\\E-Com\\src\\test\\resources\\E-Com.xlsx");
+	FileInputStream excel=new FileInputStream(".\\testData\\E-Com.xlsx");
 	
 	Workbook w1 = WorkbookFactory.create(excel);
 //	// Get the sheet by name

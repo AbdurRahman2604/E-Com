@@ -5,8 +5,9 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import com.pageobjects.amazon.PO_005_SearchPage;
+import com.testbase.amazon.BaseClass;
 
-public class TC006_Filter extends A_Browser_LQ {
+public class TC006_Filter extends BaseClass {
 	
 	@Test
 	public void filter() {
