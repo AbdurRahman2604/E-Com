@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.testcases.amazon.TC002_Signin">
+      <class name="com.testcases.amazon.TC004_EditProfile">
         <methods>
-          <include name="tearDown"/>
-          <include name="signinWithPropertyFile"/>
+          <include name="resetState"/>
+          <include name="editName"/>
           <include name="launchBrowser"/>
         </methods>
-      </class> <!-- com.testcases.amazon.TC002_Signin -->
+      </class> <!-- com.testcases.amazon.TC004_EditProfile -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

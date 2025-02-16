@@ -1,4 +1,3 @@
-D:\Eclipse_GroTechMInd\E-Com\src\test\java\com\listner\amazon\Listener.java
 D:\Eclipse_GroTechMInd\E-Com\src\test\java\com\pageobjects\amazon\A_Basepage.java
 D:\Eclipse_GroTechMInd\E-Com\src\test\java\com\pageobjects\amazon\B_HomePage.java
 D:\Eclipse_GroTechMInd\E-Com\src\test\java\com\pageobjects\amazon\PO_001_CreateAccountPage.java
@@ -10,7 +9,9 @@ D:\Eclipse_GroTechMInd\E-Com\src\test\java\com\pageobjects\amazon\PO_008_SortByP
 D:\Eclipse_GroTechMInd\E-Com\src\test\java\com\pageobjects\amazon\PO_011_CheckOutPage.java
 D:\Eclipse_GroTechMInd\E-Com\src\test\java\com\pageobjects\amazon\PO_012_SelectPMPage.java
 D:\Eclipse_GroTechMInd\E-Com\src\test\java\com\pageobjects\amazon\PO_014_ReviewOrderPage.java
-D:\Eclipse_GroTechMInd\E-Com\src\test\java\com\testcases\amazon\A_Browser_LQ.java
+D:\Eclipse_GroTechMInd\E-Com\src\test\java\com\testbase\amazon\BaseClass.java
+D:\Eclipse_GroTechMInd\E-Com\src\test\java\com\testbase\amazon\Listener.java
+D:\Eclipse_GroTechMInd\E-Com\src\test\java\com\testbase\amazon\RetryAnalyzer.java
 D:\Eclipse_GroTechMInd\E-Com\src\test\java\com\testcases\amazon\TC001_CreateAccount.java
 D:\Eclipse_GroTechMInd\E-Com\src\test\java\com\testcases\amazon\TC002_Signin.java
 D:\Eclipse_GroTechMInd\E-Com\src\test\java\com\testcases\amazon\TC003_Signin_Invalid.java

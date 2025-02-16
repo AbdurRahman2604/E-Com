@@ -1,12 +1,10 @@
 package com.testcases.amazon;
 
-import static org.testng.Assert.assertEquals;
-
 import org.testng.Assert;
-import org.testng.annotations.Listeners;
+
 import org.testng.annotations.Test;
 
-import com.google.common.util.concurrent.Service.Listener;
+
 import com.pageobjects.amazon.B_HomePage;
 import com.pageobjects.amazon.PO_002_SigninPage;
 import com.testbase.amazon.BaseClass;

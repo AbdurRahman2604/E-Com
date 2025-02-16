@@ -1,36 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
-    <line>
-      <![CDATA[Test case is passed]]>
-    </line>
-    <line>
-      <![CDATA[Test case is passed]]>
-    </line>
-    <line>
-      <![CDATA[Test case is passed]]>
-    </line>
-    <line>
-      <![CDATA[Test case is passed]]>
-    </line>
   </reporter-output>
-  <suite started-at="2024-12-25T14:01:50 IST" name="Suite" finished-at="2024-12-25T14:02:39 IST" duration-ms="48815">
+  <suite started-at="2025-01-19T15:17:18 IST" name="Suite" finished-at="2025-01-19T15:17:52 IST" duration-ms="34540">
     <groups>
     </groups>
-    <test started-at="2024-12-25T14:01:50 IST" name="Test" finished-at="2024-12-25T14:02:39 IST" duration-ms="48815">
+    <test started-at="2025-01-19T15:17:18 IST" name="Test" finished-at="2025-01-19T15:17:52 IST" duration-ms="34540">
       <class name="com.testcases.amazon.TC003_Signin_Invalid">
-        <test-method is-config="true" signature="launchBrowser(org.testng.ITestContext)[pri:0, instance:com.testcases.amazon.TC003_Signin_Invalid@146587a2]" started-at="2024-12-25T14:01:51 IST" name="launchBrowser" finished-at="2024-12-25T14:01:56 IST" duration-ms="5157" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[org.testng.TestRunner@2f74900b]]>
-              </value>
-            </param>
-          </params>
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.testcases.amazon.TC003_Signin_Invalid@1cbf6e72]" started-at="2025-01-19T15:17:33 IST" name="launchBrowser" finished-at="2025-01-19T15:17:37 IST" duration-ms="3407" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:com.testcases.amazon.TC003_Signin_Invalid@146587a2]" started-at="2024-12-25T14:01:56 IST" name="login" data-provider="ExcelData" finished-at="2024-12-25T14:02:08 IST" duration-ms="11532" status="PASS">
+        <test-method is-config="true" signature="resetState()[pri:0, instance:com.testcases.amazon.TC003_Signin_Invalid@1cbf6e72]" started-at="2025-01-19T15:17:39 IST" name="resetState" finished-at="2025-01-19T15:17:40 IST" duration-ms="1534" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetState -->
+        <test-method signature="login(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.testcases.amazon.TC003_Signin_Invalid@1cbf6e72]" started-at="2025-01-19T15:17:40 IST" name="login" data-provider="ExcelData" finished-at="2025-01-19T15:17:46 IST" duration-ms="5292" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -42,29 +27,20 @@
                 <![CDATA[rajaram]]>
               </value>
             </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Test case is passed]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- login -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testcases.amazon.TC003_Signin_Invalid@146587a2]" started-at="2024-12-25T14:02:10 IST" name="tearDown" finished-at="2024-12-25T14:02:10 IST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="launchBrowser(org.testng.ITestContext)[pri:0, instance:com.testcases.amazon.TC003_Signin_Invalid@146587a2]" started-at="2024-12-25T14:02:10 IST" name="launchBrowser" finished-at="2024-12-25T14:02:14 IST" duration-ms="4178" status="PASS">
-          <params>
-            <param index="0">
+            <param index="2">
               <value>
-                <![CDATA[org.testng.TestRunner@2f74900b]]>
+                <![CDATA[Your password is incorrect]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- launchBrowser -->
-        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:com.testcases.amazon.TC003_Signin_Invalid@146587a2]" started-at="2024-12-25T14:02:14 IST" name="login" data-provider="ExcelData" finished-at="2024-12-25T14:02:16 IST" duration-ms="2730" status="PASS">
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="resetState()[pri:0, instance:com.testcases.amazon.TC003_Signin_Invalid@1cbf6e72]" started-at="2025-01-19T15:17:46 IST" name="resetState" finished-at="2025-01-19T15:17:48 IST" duration-ms="1860" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetState -->
+        <test-method signature="login(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.testcases.amazon.TC003_Signin_Invalid@1cbf6e72]" started-at="2025-01-19T15:17:48 IST" name="login" data-provider="ExcelData" finished-at="2025-01-19T15:17:52 IST" duration-ms="4529" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -73,89 +49,33 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[raja]]>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Your password is incorrect]]>
               </value>
             </param>
           </params>
           <reporter-output>
-            <line>
-              <![CDATA[Test case is passed]]>
-            </line>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testcases.amazon.TC003_Signin_Invalid@146587a2]" started-at="2024-12-25T14:02:18 IST" name="tearDown" finished-at="2024-12-25T14:02:18 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="launchBrowser(org.testng.ITestContext)[pri:0, instance:com.testcases.amazon.TC003_Signin_Invalid@146587a2]" started-at="2024-12-25T14:02:18 IST" name="launchBrowser" finished-at="2024-12-25T14:02:23 IST" duration-ms="4445" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[org.testng.TestRunner@2f74900b]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchBrowser -->
-        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:com.testcases.amazon.TC003_Signin_Invalid@146587a2]" started-at="2024-12-25T14:02:23 IST" name="login" data-provider="ExcelData" finished-at="2024-12-25T14:02:26 IST" duration-ms="3304" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[9600255247]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[raja12]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Test case is passed]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- login -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testcases.amazon.TC003_Signin_Invalid@146587a2]" started-at="2024-12-25T14:02:28 IST" name="tearDown" finished-at="2024-12-25T14:02:28 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="launchBrowser(org.testng.ITestContext)[pri:0, instance:com.testcases.amazon.TC003_Signin_Invalid@146587a2]" started-at="2024-12-25T14:02:28 IST" name="launchBrowser" finished-at="2024-12-25T14:02:33 IST" duration-ms="4969" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[org.testng.TestRunner@2f74900b]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchBrowser -->
-        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:com.testcases.amazon.TC003_Signin_Invalid@146587a2]" started-at="2024-12-25T14:02:33 IST" name="login" data-provider="ExcelData" finished-at="2024-12-25T14:02:37 IST" duration-ms="4076" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[9600255247]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[raja2604]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Test case is passed]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- login -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testcases.amazon.TC003_Signin_Invalid@146587a2]" started-at="2024-12-25T14:02:39 IST" name="tearDown" finished-at="2024-12-25T14:02:39 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
       </class> <!-- com.testcases.amazon.TC003_Signin_Invalid -->
+      <class name="com.testcases.amazon.TC002_Signin">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.testcases.amazon.TC002_Signin@4b20ca2b]" started-at="2025-01-19T15:17:18 IST" name="launchBrowser" finished-at="2025-01-19T15:17:23 IST" duration-ms="4958" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="resetState()[pri:0, instance:com.testcases.amazon.TC002_Signin@4b20ca2b]" started-at="2025-01-19T15:17:23 IST" name="resetState" finished-at="2025-01-19T15:17:25 IST" duration-ms="2345" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetState -->
+        <test-method signature="signinWithPropertyFile()[pri:0, instance:com.testcases.amazon.TC002_Signin@4b20ca2b]" started-at="2025-01-19T15:17:25 IST" name="signinWithPropertyFile" finished-at="2025-01-19T15:17:33 IST" duration-ms="7483" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signinWithPropertyFile -->
+      </class> <!-- com.testcases.amazon.TC002_Signin -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>
